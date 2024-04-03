@@ -54,6 +54,34 @@ section {
 }
 
 
+/* -------------------------------- */
+/* PAGINA SOBRE  */
+
+article {
+    display: flex;
+    flex-direction: column;
+
+}
+.informacao {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: larger;
+    font-weight: 200;
+}
+
+#bannerSecundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bannerSecundario img{
+    height: 380px;
+}
 
 
-
+/* -------------------------------- */
+/* PAGINA 50%OFF  */
