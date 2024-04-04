@@ -84,4 +84,128 @@ article {
 
 
 /* -------------------------------- */
-/* PAGINA 50%OFF  */
+/* PAGINA Cadastro  */
+
+.titleForm h1{
+    margin-bottom: 70px;
+}
+
+.totalForm{
+    width: 350px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.totalForm input{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.totalForm #logo {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    margin: 20px;
+}
+#logo img{
+    height: 100px;
+}
+.headerForm, .importantForm, .endForm {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.headerForm #name {
+    text-align: center;
+}
+
+.btnRegister {
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    height: 30px;
+    width: 100%;
+}
+
+.btnRegister input {
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6557233146067416) 5%, rgba(139,0,255,0.7708918539325843) 100%);
+    color: black;
+}
+.endForm a {
+    text-decoration: none;
+}
+
+
+/* -------------------------------- */
+/* PAGINA LOGIN  */
+
+.main-LOGIN {
+    margin: 50px;
+    padding: 50px;
+
+}
+.LOGIN-janela {
+    width: 350px;
+    padding: 30px;
+    gap: 100px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.LOGIN-janela #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+.imgLogo img{
+    height: 100px;
+    margin: 10px;
+}
+
+.login-text, .login-password {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    /* deixar o texto em maiusculo */
+    text-transform: uppercase ;
+
+}
+#caixa {
+    width: 100%;
+}
+
+.LOGIN-janela input {
+    width: 250px;
+
+}
+
+.btnLOGIN #btnLoginclick {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6557233146067416) 5%, rgba(139,0,255,0.7708918539325843) 100%);
+    
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+    <!-- CABECALHO -->
+    <header>
+        <nav>
+            <div class="Cabecalho">
+                <div id="Logo">
+                </div>
+                <div id="Menu">
+                    <ul>
+                        <li><a href="#">Página inicial</a></li>
+                        <li><a href="../pages/Cadastro.html">Cadastro</a></li>
+                        <li><a href="../pages/Catalago.html">Catalago</a></li>
+                        <li><a href="../pages/Login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="lateral-direita-buscar">
+                    <div id="search">
+                        <img src="images/search.svg" alt="icone procurar">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Buscar">
+                    </div>    
+                   
+                </div>
+             </div>  
+        </nav>
+    </header>
+
+    <main>
+        <div class="titleForm">
+            <h1>Preenchimento de Formulário para Cadastro</h1>
+        </div>
+        
+
+        <div class="totalForm">
+            <form action="/action_page.php">
+                    <div id="logo">
+                        <img src="../images/logo.svg" alt="">
+                    </div>
+                <div class="headerForm">
+                    <label for="name">Nome </label>
+                    <input type="text" placeholder="Nome e sobrenome" id="name">
+                    <label for="CPF"> <span data-descr="Lembre de digitar os 11 digitos">CPF:</span></label>
+                    <input type="text" id="CPF">
+                   
+                    <label for="dateofbirth">Data de nascimento:</label>
+                    <div>
+                        <input type="date" name="" id="dateofbirth">
+                    </div>
+                    
+                </div>
+                <div class="importantForm">
+                    <br>
+                    <label for="email">Digite um email:</label>
+                    <input required type="email" name="" id="email">
+                    <label for="password">Digite a senha</label>
+                    <input required type="password" name="" id="password">
+                        <div id="alert">
+                            <h6> As senhas devem ter pelo menos 6 caracteres</h6>
+                        </div>
+                    <label for="passwordagain">Digite novamente a sua senha:</label>
+                    <input required type="password" name="" id="passwordagain">    
+                </div>
+
+                <div class="endForm">
+                    <div class="btnRegister">
+                        <input type="button" value="CADASTRAR">
+                    </div>
+                    <p>Caso possua Login!<a href="../pages/Login.html"><br>Clique aqui.</a></p>
+                    <p>Ao criar uma conta, você concorda com as <a href="#">Condições de Uso</a> da EletronicosPlay!!</p>
+
+                    <!-- Ao criar uma conta, você concorda com as Condições de Uso da Amazon. Por favor verifique a Notificação de Privacidade, Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.
+ -->
+                </div>
+            </form>
+        </div>
+
+        
+
+    </main>
+
+
+    <!-- RODAPE -->
+    <footer>
+        <p> &copy; Todos os Direitos Reservados ao SHOPELETRONICOSPLAY!</p>
+    </footer>
+
+    
+</body>
+</html>

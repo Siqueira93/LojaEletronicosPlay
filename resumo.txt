@@ -1,0 +1,21 @@
+Os alunos deverão desenvolver um projeto direcionado a uma lojinha!
+
+-O tema do projeto será de loja ficticia a escolha do aluno
+
+- Deverá ter 4 telas, a de login, a de cadastro, página principal e um catalogo.
+
+-Deverá também ser desenvolvido o link entre elas para que o usuário possa navegar entre as páginas. (Um exemplo, na parte de login ter links para a parte de cadastramento)
+
+-Todas deverão ter estruturado um formulário com inputs e labels funcionais para suas respectivas tarefas (Seja de logar e etc).
+
+- Deverá ter uma interação CSS no projeto (Seja hover,active,focus etc).
+
+-Catalogo deverá pelo menos ter 3 produtos
+
+-O design/tema do projeto ficará a critério do aluno ( tendo em nota que esse tema deverá ser seguido pelas outras avaliações, mudanças de tema em etapas futuras ocasionarão também a atualização das partes anteriores).
+
+- A entrega deverá ser feita com a pasta do projeto zipada ou por link do repositório público no github.
+
+-Deverá ser utilizado apenas Html, css, Js (apenas para o botão de menu )e arquivos adicionais (Imagens,videos, audios etc..), quaisquer outros elementos que fogem a regra serão desconsiderados.
+
+Obs: Será observado a organização de seu código também sendo uma parte para a nota avaliativa!
