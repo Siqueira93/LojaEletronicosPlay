@@ -13,24 +13,19 @@
     <header>
         <nav>
             <div class="Cabecalho">
-                <div id="Logo">
-                </div>
+                <div id="Logo"></div>
                 <div id="Menu">
                     <ul>
-                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">Página inicial</a></li>
                         <li><a href="pages/Cadastro.html">Cadastro</a></li>
                         <li><a href="pages/Catalago.html">Catalago</a></li>
                         <li><a href="pages/Login.html">Login</a></li>
                     </ul>
                 </div>
                 <div class="lateral-direita-buscar">
-                    <div id="search">
-                        <img src="images/search.svg" alt="icone procurar">
-                    </div>
-                    <div>
+                    <div class="barra-buscar">
                         <input type="text" placeholder="Buscar">
                     </div>    
-                   
                 </div>
              </div>  
         </nav>
@@ -53,14 +48,15 @@
         <div class="Produtos">
             <div id="produto1">
                 <div id="imgproduto1">
-                    <img src="images/ferramentasEletronicos-_i-lhAefE-transformed.jpeg" alt="">      
+                    <img src="images/ferramentasEletronicos-_i-lhAefE-transformed.jpeg" alt="pedidos-consertos">      
                 </div>
                     <div id="infoprodutos">
-                            <!-- titulo do produto -->
-                            <h3>CONSERTOS E REPAROS</h3>
-                            <!-- valor do produto -->
-                            <p>A partir de R$ 40,00</p>
-                            <!-- botao comprar  -->
+                        <div class="nome-produto">
+                            <h3>Conserto e Reparos</h3>
+                        </div>
+                        <div class="valor-produto">
+                            <p>A partir de <a href="#">R$ 80,00</a></p>
+                        </div>
                         <button type="button" id="btnComprar">
                             <p>CONTRATAR</p> 
                         </button>
@@ -69,14 +65,32 @@
             </div>
             <div id="produto1">
                 <div id="imgproduto1">
-                    <img src="images/ferramentasEletronicos-_i-lhAefE-transformed.jpeg" alt="">      
+                    <img src="images/kit placa mae.jpg" alt="kit-placa-mae-amd">      
                 </div>
                     <div id="infoprodutos">
-                            <!-- titulo do produto -->
-                            <h3>CONSERTOS E REPAROS</h3>
-                            <!-- valor do produto -->
-                            <p>A partir de R$ 40,00</p>
-                            <!-- botao comprar  -->
+                        <div class="nome-produto">
+                            <h3>Kit Amd - Completo</h3>
+                        </div>
+                        <div class="valor-produto">
+                            <a href="#">R$ 2.500,00</a>
+                        </div>
+                                <button type="button" id="btnComprar">
+                                    <p>CONTRATAR</p> 
+                                </button>
+                        <h6>Obs: Não incluso taxas de cartão</h6>
+                    </div>
+            </div>
+            <div id="produto1">
+                <div id="imgproduto1">
+                    <img src="images/rtx-4090.png" alt="placa-de-video">      
+                </div>
+                    <div id="infoprodutos">
+                            <div class="nome-produto">
+                                <h3>Placa de Video rtx-4090</h3>
+                            </div>
+                            <div class="valor-produto">
+                                <a href="#">R$ 3.500,00</a>
+                            </div>
                         <button type="button" id="btnComprar">
                             <p>CONTRATAR</p> 
                         </button>
@@ -85,30 +99,15 @@
             </div>
             <div id="produto1">
                 <div id="imgproduto1">
-                    <img src="images/ferramentasEletronicos-_i-lhAefE-transformed.jpeg" alt="">      
+                    <img src="images/videogame-sony-ps5-slim.jpg" alt="ps5">      
                 </div>
                     <div id="infoprodutos">
-                            <!-- titulo do produto -->
-                            <h3>CONSERTOS E REPAROS</h3>
-                            <!-- valor do produto -->
-                            <p>A partir de R$ 40,00</p>
-                            <!-- botao comprar  -->
-                        <button type="button" id="btnComprar">
-                            <p>CONTRATAR</p> 
-                        </button>
-                        <h6>Obs: Não incluso taxas de cartão</h6>
-                    </div>
-            </div>
-            <div id="produto1">
-                <div id="imgproduto1">
-                    <img src="images/ferramentasEletronicos-_i-lhAefE-transformed.jpeg" alt="">      
-                </div>
-                    <div id="infoprodutos">
-                            <!-- titulo do produto -->
-                            <h3>CONSERTOS E REPAROS</h3>
-                            <!-- valor do produto -->
-                            <p>A partir de R$ 40,00</p>
-                            <!-- botao comprar  -->
+                            <div class="nome-produto">
+                                <h3>Playstation 5</h3>
+                            </div>
+                            <div class="valor-produto">
+                                <a href="#">R$ 1.500,00</a>
+                            </div>
                         <button type="button" id="btnComprar">
                             <p>CONTRATAR</p> 
                         </button>
@@ -124,7 +123,18 @@
     
     <!-- RODAPE -->
     <footer>
-        <p> &copy; Todos os Direitos Reservados ao SHOPELETRONICOSPLAY!</p>
+        <div class="rodape">
+            <div id="sub-menu-rodape">
+                <a href="#">Página inicial</a>
+                <a href="#">Sobre</a>
+                <a href="#">Cadastre-se</a>
+                <a href="#">Ajuda</a>
+            </div>
+            <div id="autorais-rodape">
+                <p> &copy; Todos os Direitos Reservados ao SHOPELETRONICOSPLAY!</p>
+            </div>
+        </div>
+        
     </footer>
     <!-- fim RODAPE -->
 
